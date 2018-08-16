@@ -1,0 +1,35 @@
+{
+  "name": "str-to-arr",
+  "version": "1.0.0",
+  "description": "Add words from a string to an array",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava && ci-success travis --success"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abranhe/str-to-arr.git"
+  },
+  "keywords": [
+    "string",
+    "array",
+    "str-to-arr"
+  ],
+  "files": [
+    "cli.js"
+  ],
+  "author": {
+    "name": "Carlos Abraham",
+    "email": "abraham@abranhe.com",
+    "web": "abranhe.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abranhe/str-to-arr/issues"
+  },
+  "homepage": "https://github.com/abranhe/str-to-arr#readme",
+  "devDependencies": {
+    "ci-success": "^2.0.0",
+    "ava": "1.0.0-beta.6"
+  }
+}
