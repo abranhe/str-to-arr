@@ -1,6 +1,6 @@
 {
   "name": "str-to-arr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add words from a string to an array",
   "main": "index.js",
   "scripts": {

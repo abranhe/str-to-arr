@@ -26,7 +26,12 @@
 
 # Overview
 
-[str-to-arr](https://www.npmjs.com/package/str-to-arr) extract the words from a string, and store those words in an array. Valid string can only contain **letters** (a, b, c, ...), **numbers** (1, 2, 3, ...), and some special characters (`@, #, $, %, &, ...`). The strings will be replaced by lower case.
+[str-to-arr](https://www.npmjs.com/package/str-to-arr) extract the words from a string, and store those words in an array. The words are separated by a black space/s `(' ')` .
+We want to accept the user to add his/her own custom **regex** properties, but that isn't yet covered.
+
+Now all characters are valid strings, instead of the [v1.0.0](https://github.com/abranhe/str-to-arr/tree/1cb0126df8e28e534b7d456abfaeff87f3c8b621#readme) where not any characters was supported. This version still covert the words to lower case.
+
+I currently use this module on [init-pkg-json-cli](https://github.com/abranhe/init-pkg-json-cli) to accept multiple keywords in just one argument.
 
 ### To do
 
@@ -44,7 +49,7 @@ npm install str-to-arr
 const strToArr = require('str-to-arr');
 
 console.log(strToArr('This s$tring has_number3s and hyp-hens'));
-// => [ 'this', 's$tring', 'has', 'number3s', 'and', 'hyp-hens' ]
+// => [ 'this', 's$tring', 'has_number3s', 'and', 'hyp-hens' ]
 ```
 
 # Team
