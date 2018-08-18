@@ -52,6 +52,10 @@ console.log(strToArr('This s$tring has_number3s and hyp-hens'));
 // => [ 'this', 's$tring', 'has_number3s', 'and', 'hyp-hens' ]
 ```
 
+# Related
+
+- [s-to-o](https://github.com/abranhe/s-to-o): convert an string into an object.
+
 # Team
 
 |[![Carlos Abraham Logo](https://avatars3.githubusercontent.com/u/21347264?s=50&v=4)](https://19cah.com)|
